@@ -57,7 +57,7 @@ class Database {
  },
  {
   Color:const Color.fromARGB(255, 243, 234, 150),
- "text":"Koriean",
+ "text":"Korean",
  "image":"assets/images/plate4.jpeg",
  
  },
