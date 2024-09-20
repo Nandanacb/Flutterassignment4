@@ -38,33 +38,41 @@ class Database {
 
   static List<Map> myfoodList=[
  {
+  Color:Colors.blue,
  "text":"Salad",
  "image":"assets/images/plate1.jpeg",
-  Color:const Color.fromARGB(255, 122, 186, 239),
+  
  },
  {
+  Color:Colors.pink,
  "text":"Steak",
  "image":"assets/images/plate2.jpeg",
- Color:const Color.fromARGB(255, 233, 172, 192)
+ 
  },
  {
+  Color:Colors.grey,
  "text":"Chicken",
  "image":"assets/images/plate3.jpeg",
- Color:const Color.fromARGB(255, 197, 192, 192)
+ 
  },
  {
+  Color:Colors.yellow,
  "text":"Koriean",
  "image":"assets/images/plate4.jpeg",
- Color:const Color.fromARGB(255, 234, 228, 174)
+ 
  },
 
  {
+  Color:Colors.blue,
  "text":"Salad",
  "image":"assets/images/plate5.jpeg",
+ 
  },
  {
+  Color:Colors.blue,
  "text":"Salad",
  "image":"assets/images/plate3.jpeg",
+ 
  },
   ];
 }
