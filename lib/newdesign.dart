@@ -106,15 +106,15 @@ Expanded(
             height: 250,
             width: 200,
             decoration: BoxDecoration(borderRadius: BorderRadius.circular(20),
-            color:Database.myfoodList[index]["color"]),
+            color:Database.myfoodList[index][Color]),
+            child:Padding(
+              padding: const EdgeInsets.all(10),
+              child: Text(Database.myfoodList[index]["text"]),
+            ),
             
           ),
           
-           Positioned(
-            top:15,
-            left: 15,
-            child:Text(Database.myfoodList[index]["text"]),
-            ),
+
            
             Positioned(
             top:35,
